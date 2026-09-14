@@ -15,4 +15,7 @@ Fictional project process. It does not describe a configured Salesforce organiza
 The sales representative assesses the lead, then converts it to an Account, Contact and Opportunity.
 
 ## Rules
-Assessment is currently optional.
+Qualification is mandatory.
+
+## Mandatory qualification
+The sales representative confirms lead qualification before conversion.
