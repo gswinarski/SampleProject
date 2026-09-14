@@ -22,3 +22,7 @@ Prepare a consistent process, requirements, solution and test package for operat
 
 ## Completion criteria
 No broken references, readable diagrams, explicit assumptions and test coverage for acceptance criteria. The analysis owner confirms readiness. Publication and merge remain separate user actions.
+
+
+## Branch plan
+This plan is tracked in the analysis/telco-001-customer-issues-faults-an-a5e1a5 feature branch.
