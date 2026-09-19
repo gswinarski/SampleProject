@@ -13,14 +13,12 @@ relates_to:
 # B2C FTTH operator project
 
 ## Project purpose
-Consistent subscriber service from address checks to complaint handling in Salesforce Communications Cloud. Channels: agent Console and customer portal.
+A consistent, TMF-informed way to register a customer Case through Salesforce Communications Cloud's Experience Cloud self-service portal, for authenticated and guest visitors alike.
 
-## Three independent analyses
-- TELCO-001: customer reports, faults, quality complaints and billing complaints.
-- TELCO-002: installation address and technical FTTH qualification.
-- TELCO-003: generic Case registration via Experience Cloud — the shared front door TELCO-001's topics build on.
+## Current analysis
+- TELCO-003: generic Case registration via Experience Cloud.
 
-Each analysis has its own operational folders and plan. Project documents provide identical shared context so analyses can merge in either order. A topic folder missing from the current analysis does not mean it was deleted.
+Each analysis has its own operational folders and plan. Project documents provide identical shared context so analyses can merge in either order. A topic folder missing from the current analysis does not mean it was deleted — other analyses may be open on their own branches.
 
 [Architecture](doc:PROJECT-ARCH) · [TMF mapping](doc:PROJECT-TMF) · [Glossary](doc:PROJECT-GLOSSARY)
 

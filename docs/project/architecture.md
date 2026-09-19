@@ -10,17 +10,14 @@ relates_to: []
 # Communications Cloud architecture
 
 ## System boundaries
-The customer portal and Communications Service Console use OmniScript forms. Salesforce manages the customer relationship and Case state. Integration Procedures transform data and call adapters. Durable queues and deduplication belong to the agreed integration layer.
+The customer portal uses Experience Cloud with the standard Create Case Form component. Salesforce is the sole system of record for this topic: the customer relationship, the Case and its category. Case registration makes no live external integration call — everything it needs to decide (identification, duplicates, classification) is already in Salesforce.
 
 | System | Source of truth |
 |---|---|
-| Salesforce | Interaction, Case, owner, service decision and external references |
-| OSS | Network incidents, Trouble Tickets and technical qualification |
-| Address registry | Normalized addresses and identifiers |
-| Billing | Invoices, charges and completed adjustments |
+| Salesforce | Interaction, Case, owner and category |
 
 ## Configuration to confirm
-Communications Cloud and portal licenses, OmniStudio runtime, B2C and asset models, sharing rules, specialist roles and adapters. The POC does not prescribe unverified industry-package object names. For self-service Case registration specifically: the Create Case Form component's Signed-In vs. Guest Case Action layouts, whether Web-to-Case is enabled, and the reCAPTCHA version (Experience Builder ships v1 only; v2/v3 needs a custom component) — see [Case registration](doc:TOPIC-CASEREG).
+Communications Cloud and portal licenses, B2C and asset models, sharing rules, and the Create Case Form component's Signed-In vs. Guest Case Action layouts, whether Web-to-Case is enabled, and the reCAPTCHA version (Experience Builder ships v1 only; v2/v3 needs a custom component) — see [Case registration](doc:TOPIC-CASEREG). The POC does not prescribe unverified industry-package object names.
 
 ## Consistency and audit
-Case and integration states are separate. Retries and repeated events do not create duplicates. BPMN doc:ID links open documents in the same analysis context or the exact before/after PR revision.
+A confirmed duplicate is linked, never re-registered as a second Case. BPMN doc:ID links open documents in the same analysis context or the exact before/after PR revision.

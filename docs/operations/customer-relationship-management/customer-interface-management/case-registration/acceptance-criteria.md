@@ -17,8 +17,8 @@ relates_to:
 | AC-CASEREG-03 | Guest visitor submits without a name, email or phone | The gap is shown; no Case is created. |
 | AC-CASEREG-04 | Required field from the action layout is missing | Specific gaps are shown; the Case is not created. |
 | AC-CASEREG-05 | A matching open Case exists for the same contact and service | The new contact is linked to the existing Case; no second Case is created. |
-| AC-CASEREG-06 | Category selected is a technical fault or quality concern | The Case is created and handed to the customer issues and faults process. |
-| AC-CASEREG-07 | Category selected is a disputed charge | The Case is created and handed to the billing complaints process. |
-| AC-CASEREG-08 | Category selected is a general inquiry | The Case is created and remains queued for direct handling; no hand-off occurs. |
+| AC-CASEREG-06 | Category selected is a technical fault or quality concern | The Case is created with that category and routed to the owning queue. |
+| AC-CASEREG-07 | Category selected is a disputed charge | The Case is created with that category and routed to the owning queue. |
+| AC-CASEREG-08 | Category selected is a general inquiry | The Case is created and remains queued for direct handling. |
 | AC-CASEREG-09 | Web-to-Case is disabled in the target org | The guest path is unavailable; the authenticated path is unaffected. |
 | AC-CASEREG-10 | Case is created successfully | Customer receives a confirmation containing the Case number. |

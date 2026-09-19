@@ -13,13 +13,8 @@ relates_to: []
 |---|---|
 | FTTH | Fiber access to the customer location. |
 | Case | Salesforce customer case with its own owner and history. |
-| Trouble Ticket | Technical OSS ticket that may be linked to a Case. |
-| Widespread outage | A network incident affecting many services; does not replace individual customer cases. |
-| Quality complaint | A customer concern about quality that may need diagnostics and a separate complaint decision. |
-| Billing complaint | A disputed charge requiring billing review. |
-| Address validation | Identifying a correct, unambiguous address and its identifier. |
-| Service qualification | Assessing technical service availability at a given address. |
-| OSS / BSS | Network operations systems / business support systems, including billing. |
+| Trouble Ticket | TMF621 concept cited as an architectural reference for the fields a ticket-like Case should carry. |
+| OSS / BSS | Network operations systems / business support systems, including billing; not called directly by Case registration. |
 | eTOM | TM Forum reference process classification. |
 | Correlation ID | Identifier tracing an interaction across systems. |
 | Experience Cloud | Salesforce self-service portal used for customer-facing case registration. |

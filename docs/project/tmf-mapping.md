@@ -14,17 +14,9 @@ Folders reflect selected eTOM operational areas, with local project topics benea
 
 | Project topic | Reference area | Comment |
 |---|---|---|
-| Case registration via Experience Cloud | Customer Relationship Management / Customer Interface Management | Shared front door: customer issues and billing complaints both assume a Case already exists when their own process starts. |
-| Customer issues and faults | Assurance / Customer Problem Management | Intake also touches customer interaction handling. |
-| Billing complaints | Billing & Revenue Management / Customer Bill Inquiry Handling | billing-complaint is a local topic; quality complaints remain under customer problems. |
-| Address and FTTH qualification | Fulfillment / preparation for service delivery | address-and-service-qualification is a local topic, not an official eTOM process name. Address validation is a shared capability. |
+| Case registration via Experience Cloud | Customer Relationship Management / Customer Interface Management | Generic intake front door: identification, the self-service form, duplicate detection and classification. |
 
-| Integration | Reference | Boundary |
-|---|---|---|
-| Technical OSS ticket | TMF621 | Not a billing adjustment. |
-| Address registry and validation | TMF673 | A valid address does not establish availability. |
-| Technical qualification | TMF645 | Not commercial offer qualification or reservation. |
-| Billing adjustment | Operator contract | No standard TMF API is claimed. |
+This topic makes no live external integration call (registration is Salesforce-native); TMF621 Trouble Ticket is cited in [Case registration](doc:TOPIC-CASEREG) only as an architectural reference for the fields a ticket-like Case should carry, not as a contract this topic implements.
 
 ## Sources and limitations
 - [eTOM — process classification](https://www.tmforum.org/open-digital-architecture/process-framework-etom/)

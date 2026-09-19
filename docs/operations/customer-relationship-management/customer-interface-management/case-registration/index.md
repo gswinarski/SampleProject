@@ -23,8 +23,8 @@ relates_to:
 ## Diagrams
 - [case-registration.bpmn](diagrams/case-registration.bpmn)
 
-## Relationship to other topics
-This topic owns the generic "front door" through which every customer contact becomes a Case: identification, the self-service form, duplicate detection and classification. It does not repeat the technical fault/quality investigation already described in [Customer issues and faults](doc:TOPIC-ISSUE), nor the financial review in [Billing complaints](doc:TOPIC-BILL) — once a Case is classified, this process hands off into those topics. Treat this topic's business process and data model as a shared dependency of both.
+## Scope
+This topic owns the generic "front door" through which every customer contact becomes a Case: identification, the self-service form, duplicate detection and classification. It ends once a Case exists and is categorized — investigating or resolving a specific category of Case is a separate concern, out of scope here.
 
 ## Sources and limitations
 - [eTOM — process classification](https://www.tmforum.org/open-digital-architecture/process-framework-etom/)

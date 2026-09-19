@@ -40,7 +40,7 @@ Standard, picklist. Broad category (for example Question, Problem). Used togethe
 Standard, picklist. Finer reason within a Type; optional at registration, may be refined downstream.
 
 ### RecordTypeId
-Standard, lookup to RecordType. Distinguishes the registration outcome — for example a general-inquiry Case from one that hands off to [Customer issues and faults](doc:BP-ISSUE) or [Billing complaints](doc:BP-BILL). Record Types and their page layouts are configuration to confirm in the target org.
+Standard, lookup to RecordType. Distinguishes the registration outcome by category (for example a general inquiry versus a technical fault or billing concern). Record Types and their page layouts are configuration to confirm in the target org.
 
 ### AccountId
 Standard, lookup to Account. Set for an authenticated customer; see [[salesforce-account]].
@@ -78,7 +78,7 @@ Proposed, lookup or text. Identifies the specific FTTH service the contact conce
 Proposed, picklist. Distinguishes "Experience Cloud — authenticated" from "Experience Cloud — guest" (and future channels), finer than the standard [[salesforce-case#Origin]] value. Set once, at registration, from which Case Action created the record.
 
 ### External_Reference_Id__c
-Proposed, text. Correlation/deduplication key carried forward to whichever downstream integration a specialist topic uses (the same role as `correlationId`/`externalTicketId` in the [customer issues and faults solution design](doc:SD-ISSUE)). Populated by registration only when a category with a known downstream integration is selected.
+Proposed, text. Correlation/deduplication key carried forward to whichever downstream integration a specialist team's process later uses. Populated by registration only when a category with a known downstream integration is selected.
 
 ### Duplicate_Of__c
 Proposed, lookup to Case. An explicit "possible duplicate" link set by the duplicate-check step, kept separate from a confirmed merge. Open decision: whether this field is worth its own semantics or the standard [[salesforce-case#ParentId]] should be reused instead — see [Solution design](doc:SD-CASEREG).

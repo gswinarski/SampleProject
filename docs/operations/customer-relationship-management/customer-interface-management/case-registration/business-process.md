@@ -23,7 +23,7 @@ A B2C customer opens the self-service form in Experience Cloud, authenticated or
 5. Search for an open Case from the same contact (or the same guest identity) against the same service and a similar category. For a confirmed duplicate, link the new contact to the existing Case instead of opening a second one.
 6. Create the Case, set its Record Type from the selected category, and set the channel detail to distinguish authenticated and guest Experience Cloud submissions.
 7. Send the customer a confirmation containing the Case number.
-8. Route the Case by category: technical fault or quality concern continues in [Customer issues and faults](doc:BP-ISSUE); a disputed charge continues in [Billing complaints](doc:BP-BILL); a general inquiry is queued for handling directly from this Case.
+8. Route the Case by category (technical fault or quality concern, disputed charge, or general inquiry) to the queue that owns it. Investigating or resolving that category of Case is a separate process, out of scope here.
 
 ## Rules
 A guest submission never discloses another customer's data, even when the guest's details resemble an existing contact. Linking a contact to an existing Case never discards the new evidence (description, attachment) it carried. Classification recorded at registration may be corrected later by a specialist team; the correction is Case history, not a silent overwrite.
