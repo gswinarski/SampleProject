@@ -17,7 +17,7 @@ Under `operations/<eTOM area>/<eTOM subprocess>/<topic>/`, one folder per busine
 
 Every document has YAML frontmatter (`id, title, type, topic_id, status, relates_to`) and cross-links other documents with a `doc:ID` reference (for example `[Business process](doc:BP-CASEREG)`), never a relative markdown link or an absolute path. To find what a change impacts, search for the `id` being changed and for every `doc:<that id>` reference to it.
 
-Current topics: [Case registration via Experience Cloud](operations/customer-relationship-management/customer-interface-management/case-registration/index.md).
+Current topics: [Case registration via Experience Cloud](operations/customer-relationship-management/customer-interface-management/case-registration/index.md) and [planned works and mass outage notification](operations/assurance/service-quality-management/planned-works-and-outages/index.md) — the second raises a network-driven Incident independently of whether a customer has opened a Case.
 
 ## Data model
 `data-model/` documents the Salesforce objects/fields the analyses above depend on, one file per object under `data-model/objects/`. See [data-model/README.md](data-model/README.md) for the full convention. In short: object notes are `doc:ID` citizens like any other document, and individual fields are linked at the heading level with Obsidian wikilinks (`[[salesforce-case#Registration_Channel_Detail__c]]`), so both Obsidian's backlinks pane and a plain `grep` can answer "which processes use this field."

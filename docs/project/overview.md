@@ -13,10 +13,11 @@ relates_to:
 # B2C FTTH operator project
 
 ## Project purpose
-A consistent, TMF-informed way to register a customer Case through Salesforce Communications Cloud's Experience Cloud self-service portal, for authenticated and guest visitors alike.
+A consistent, TMF-informed way to register a customer Case through Salesforce Communications Cloud's Experience Cloud self-service portal, and to keep customers proactively informed of network conditions independently of any Case they may open.
 
-## Current analysis
+## Two independent analyses
 - TELCO-003: generic Case registration via Experience Cloud.
+- TELCO-004: planned works and mass outage notification — network-driven Incidents shown on the portal home page, independent of any customer Case.
 
 Each analysis has its own operational folders and plan. Project documents provide identical shared context so analyses can merge in either order. A topic folder missing from the current analysis does not mean it was deleted — other analyses may be open on their own branches.
 

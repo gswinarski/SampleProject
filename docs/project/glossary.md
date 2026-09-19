@@ -22,3 +22,7 @@ relates_to: []
 | Global Action (Quick Action) | The Salesforce mechanism the Create Case Form component uses to create a Case, with its own layout per authenticated/guest path. |
 | Web-to-Case | The org-wide setting that allows guest users to create Cases from a public form. |
 | Record Type | Distinguishes the outcome of Case registration (general inquiry vs. handed off to a specialist topic). |
+| NMS | Network Management System — the operator's source of truth for network alarms and events. |
+| Incident | Standard Salesforce object grouping a network condition (planned work or outage) and the services it affects. |
+| Asset | Standard Salesforce object representing one of the customer's services. |
+| Major incident | An Incident flagged as widespread and business-critical. |

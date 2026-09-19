@@ -15,8 +15,13 @@ Folders reflect selected eTOM operational areas, with local project topics benea
 | Project topic | Reference area | Comment |
 |---|---|---|
 | Case registration via Experience Cloud | Customer Relationship Management / Customer Interface Management | Generic intake front door: identification, the self-service form, duplicate detection and classification. |
+| Planned works and mass outage notification | Assurance / Service Quality Management | Network-driven, proactive; independent of whether a customer has opened a Case. |
 
-This topic makes no live external integration call (registration is Salesforce-native); TMF621 Trouble Ticket is cited in [Case registration](doc:TOPIC-CASEREG) only as an architectural reference for the fields a ticket-like Case should carry, not as a contract this topic implements.
+Case registration makes no live external integration call (it is Salesforce-native); TMF621 Trouble Ticket is cited in [Case registration](doc:TOPIC-CASEREG) only as an architectural reference for the fields a ticket-like Case should carry, not as a contract this topic implements.
+
+| Integration | Reference | Boundary |
+|---|---|---|
+| NMS alarm/event ingestion | TMF642 | Not a customer Trouble Ticket; correlation to customers happens only inside Salesforce. |
 
 ## Sources and limitations
 - [eTOM — process classification](https://www.tmforum.org/open-digital-architecture/process-framework-etom/)
