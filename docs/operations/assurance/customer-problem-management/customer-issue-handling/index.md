@@ -24,6 +24,9 @@ relates_to:
 - [overview.bpmn](diagrams/overview.bpmn)
 - [fault-handling.bpmn](diagrams/fault-handling.bpmn)
 
+## Related topics
+This process assumes a Case already exists. Intake, identification and duplicate handling are documented in the shared [Case registration via Experience Cloud](doc:TOPIC-CASEREG) topic.
+
 ## Sources and limitations
 - [eTOM — process classification](https://www.tmforum.org/open-digital-architecture/process-framework-etom/)
 - [Communications Service Console](https://help.salesforce.com/s/articleView?id=ind.Comms_Communications_Cloud_B2C_Agent_Console_Overview.htm&language=en_US&type=5)

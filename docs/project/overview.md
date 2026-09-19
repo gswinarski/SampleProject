@@ -15,9 +15,10 @@ relates_to:
 ## Project purpose
 Consistent subscriber service from address checks to complaint handling in Salesforce Communications Cloud. Channels: agent Console and customer portal.
 
-## Two independent analyses
+## Three independent analyses
 - TELCO-001: customer reports, faults, quality complaints and billing complaints.
 - TELCO-002: installation address and technical FTTH qualification.
+- TELCO-003: generic Case registration via Experience Cloud — the shared front door TELCO-001's topics build on.
 
 Each analysis has its own operational folders and plan. Project documents provide identical shared context so analyses can merge in either order. A topic folder missing from the current analysis does not mean it was deleted.
 
