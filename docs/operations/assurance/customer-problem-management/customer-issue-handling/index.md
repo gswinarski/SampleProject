@@ -25,7 +25,7 @@ relates_to:
 - [fault-handling.bpmn](diagrams/fault-handling.bpmn)
 
 ## Related topics
-This process assumes a Case already exists. Intake, identification and duplicate handling are documented in the shared [Case registration via Experience Cloud](doc:TOPIC-CASEREG) topic.
+This process assumes a Case already exists. Intake, identification and duplicate handling are documented in the shared [Case registration via Experience Cloud](doc:TOPIC-CASEREG) topic. A known widespread outage referenced from this process (see `AC-ISSUE-05`) is created and owned by [Planned works and mass outage notification](doc:TOPIC-OUTAGE), not by this topic.
 
 ## Sources and limitations
 - [eTOM — process classification](https://www.tmforum.org/open-digital-architecture/process-framework-etom/)

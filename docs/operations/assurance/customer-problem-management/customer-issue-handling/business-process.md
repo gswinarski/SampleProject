@@ -28,4 +28,4 @@ A B2C customer reports an issue through the portal, or an agent records the cont
 Case and Trouble Ticket have separate lifecycles. Technical resolution in OSS does not automatically close the customer's complaint. Response, escalation and reopening periods are project parameters, not statutory deadlines defined by this example.
 
 ## References
-[Identification details](doc:STEP-IDENTIFY) · [Classification](doc:STEP-CLASSIFY) · [OSS integration](doc:INT-TICKET) · [Case registration (shared)](doc:BP-CASEREG)
+[Identification details](doc:STEP-IDENTIFY) · [Classification](doc:STEP-CLASSIFY) · [OSS integration](doc:INT-TICKET) · [Case registration (shared)](doc:BP-CASEREG) · [Outage notification (shared)](doc:BP-OUTAGE)

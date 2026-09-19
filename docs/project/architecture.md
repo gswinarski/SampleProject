@@ -16,6 +16,7 @@ The customer portal and Communications Service Console use OmniScript forms. Sal
 |---|---|
 | Salesforce | Interaction, Case, owner, service decision and external references |
 | OSS | Network incidents, Trouble Tickets and technical qualification |
+| NMS | Network alarms/events and their affected network service identifiers |
 | Address registry | Normalized addresses and identifiers |
 | Billing | Invoices, charges and completed adjustments |
 
