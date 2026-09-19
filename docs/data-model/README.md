@@ -28,5 +28,7 @@ Every field is marked either **Standard** (a real Salesforce field, factual, not
 - [[salesforce-case]] — the Case object, as extended for [Case registration](doc:TOPIC-CASEREG)
 - [[salesforce-account]] — the Account fields Case registration relies on for customer identification
 - [[salesforce-contact]] — the Contact fields Case registration relies on for customer identification
+- [[salesforce-premise]] — a proposed custom object holding aggregated address coverage, used by [Postal-code address lookup and coverage check](doc:TOPIC-COVERAGE)
+- [[salesforce-lead]] — the Lead fields that same process writes for an out-of-coverage address
 
 Conceptual design for a fictional FTTH operator. Standard fields are verified against the Salesforce object reference; proposed fields and TMF mappings require agreement with the operator before implementation.
