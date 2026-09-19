@@ -14,6 +14,7 @@ Folders reflect selected eTOM operational areas, with local project topics benea
 
 | Project topic | Reference area | Comment |
 |---|---|---|
+| Case registration via Experience Cloud | Customer Relationship Management / Customer Interface Management | Shared front door: customer issues and billing complaints both assume a Case already exists when their own process starts. |
 | Customer issues and faults | Assurance / Customer Problem Management | Intake also touches customer interaction handling. |
 | Billing complaints | Billing & Revenue Management / Customer Bill Inquiry Handling | billing-complaint is a local topic; quality complaints remain under customer problems. |
 | Address and FTTH qualification | Fulfillment / preparation for service delivery | address-and-service-qualification is a local topic, not an official eTOM process name. Address validation is a shared capability. |
